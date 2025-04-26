@@ -670,7 +670,7 @@ width: 100%;
   }
   @media only screen and (max-width:600px){
     #header{
-      background-image: url(Adobe\ Express\ -\ file.jpg);
+      background-image: url(backgroundphone.jpg);
     }
    .header-text{
     margin-top: 50px;
@@ -807,6 +807,9 @@ width: 100%;
     font-size: 30px;
     margin-top: -20px;
   
+  }
+.subtitle-ser{
+    font-size: 45px;
   }
   .contact-left p {
     display: flex;
