@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src ="Chanpreet Kaur.png" class="logo" >
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#services">My work</a></li>
+                    <li> <a href="#education">Education</a></li>
+                    <li> <a href="#experience">Internships</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul><i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Student at NITJ </p>
+                <h1>Hey, Welcome to <br><span>Chanpreet Kaur's</span> Portfolio!</h1>
+                <a href="https://drive.google.com/file/d/1wuA9wFVVSruUqWbyYJWAmgWy07d_qtn8/view" target="_blank" class="resume-button">
+                    <i class="fas fa-link"></i> My Resume
+                  </a>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/chanpreetkaur05/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/its._chan._5/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/chan570"  class="github" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:kaurchan2005@gmail.com" class="gmail"><i class="fas fa-envelope"></i></a>
+                  </div>
+                  
+                  
+            </div>
+        </div>
+    </div>
+    
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class ="about-col1">
+                <img src="ABOUT.jpg">
+            </div>
+            <div class ="about-col2">
+                <h1 class="subtitleABOUT">ABOUT ME</h1>
+                <div class="para">
+                    <div>
+                      <p>
+                        I'm Chanpreet Kaur, a dedicated and forward-thinking B.Tech Computer Science student with a passion for 
+                        building impactful and innovative tech solutions. My interests lie in web development, AI-powered platforms, 
+                        and practical software systems that improve everyday life. I’ve actively participated in hackathons and 
+                        collaborative projects, constantly pushing myself to learn, adapt, and grow.
+                      </p>
+                    </div>
+                  </div>
+                  
+                <div class="tabtitles">
+                    <p class="tablink activelink" onclick="opentab('skills')">SKILLS</p>
+                    <p class="tablink" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+                    <p class="tablink" onclick="opentab('hobbies')">HOBBIES</p>
+                </div>
+                <div class="tabcontent activetab" id="skills">
+                    <ul>
+                        <li>
+                            <span>
+                                Web Development
+                            </span><br>  using HTML,CSS,JS
+                        </li>
+                        <li>
+                            <span>
+                                Data Structures and Algorithms
+                            </span><br>  C/C++
+                        </li>
+                        <li>
+                            <span>
+                                Database Management System
+                            </span><br>  MySQL
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabcontent" id="EXPERIENCE">
+                    <ul>
+                        <li>
+                            <span>
+                                AlgoScholar'24 from AlgoUniversity
+                            </span><br>  Receiving DSA mentorship and 
+                            working on Real-world Projects.
+                        </li>
+                        <li>
+                            <span>
+                               CodSoft Web Development Internship 
+                            </span><br>  Working on real-world Projects on Web designing.
+                        </li>
+                       
+                    </ul>
+                </div>
+                <div class="tabcontent" id="hobbies">
+                    <ul>
+                        <li>
+                            <span>
+                               Exploration
+                            </span><br>  Exploring new technologies
+                        </li>
+                        <li>
+                            <span>
+                                Bhangra
+                            </span><br> Keeps me
+                             energized, grounded, and connected to my roots.
+                        </li>
+                        <li>
+                            <span>
+                                Singing
+                            </span><br> My soulful escape
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div id="services">
+    <div class="container">
+      <h1 class="subtitle-ser">What Can I Do</h1>
+      <div class="service-flex">
+        <div class="serviceslist">
+          <div class="web-text" class="icon-top">
+            
+                <i class="fas fa-code fa-2x"></i>
+    
+            <h2>Web Design</h2>
+            <p>As a passionate and detail-oriented web designer, I specialize in creating visually captivating, user-friendly, and responsive websites tailored to meet your unique goals. Whether you need a personal blog, a startup landing page, or a dynamic web app, I can help bring your ideas to life with clean, modern designs and seamless functionality.</p>
+            <a href="#" class="learn-more-btn">Learn more</a>
+          </div>
+        </div>
+        <div class="service-image">
+          <img src="web-design.jpg" alt="Web Design" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="education">
+    <div class="edu-container">
+      <div class="edu-left">
+        <img src="edu.jpg" alt="Graduation Cap and Certificate" />
+      </div>
+      <div class="edu-right">
+        <h1 class="edu-title">Education</h1>
+        <p class="edu-subtitle-1">Qualification and Certifications</p>
+       
+      </div>
+    </div>
+  </div>
+  <div class="education-entry">
+    <div class="edu-logo">
+      <div class="edu-logo-inner">
+        <div class="edu-logo-front">
+          <img src="nitjlogo.webp" alt="NIT Jalandhar Logo">
+        </div>
+        <div class="edu-logo-back">
+          NIT Jalandhar
+        </div>
+      </div>
+    </div>
+    <div class="edu-details">
+      <div class="edu-header">
+        <h3>Dr. B.R. Ambedkar National Institute of Technology , Jalandhar</h3>
+        <span>2023 – Present</span>
+      </div>
+      <div class="edu-subtitle">Bachelor of Technology in Computer Science & Engineering</div>
+      <div class="edu-body">
+        <p><i class="fas fa-star"></i>CGPA: 9.11</p>
+        <p><i class="fas fa-star"></i>In my Second Year with a strong academic foundation and a passion for computer science.</p>
+        <p><i class="fas fa-star"></i>Possess a solid grasp of core concepts like OOPS, DBMS, Web Development, and Software Engineering.</p>
+        <p><i class="fas fa-star"></i>Awarded a merit-based scholarship of ₹25K in my first year, acknowledging my academic excellence.</p>
+        <button class="visit-button" onclick="window.open('https://www.nitj.ac.in/', '_blank')">Visit Website</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Education Block -->
+   <div id="educationindetail">
+  <div class="education-entry">
+    <div class="edu-logo">
+      <div class="edu-logo-inner">
+        <div class="edu-logo-front">
+          <img src="meritorious-school-MOHALI-logo.jpg" alt="meritorious School Logo">
+        </div>
+        <div class="edu-logo-back">
+          Meritorious School
+        </div>
+      </div>
+    </div>
+    <div class="edu-details">
+      <div class="edu-header">
+        <h3>Senior Secondary Residential School for Meritorious Students , Mohali</h3>
+        <span>2021–2023</span>
+      </div>
+      <div class="edu-subtitle">High School</div>
+      <div class="edu-body">
+        <p><i class="fas fa-star"></i>Consistent academic performance with and 97.6% in XII grade.</p>
+        <p><i class="fas fa-star"></i>Secured State rank 12th and District rank 3rd in class XII demonstrating a passion for learning beyond the classroom.</p>
+        <p><i class="fas fa-star"></i>Cleared NTSE, PUCET (11th rank), HCL-TECH BEE (BITS Pilani , B.tech)</p>
+        <button class="visit-button" onclick="window.open('https://schoolofeminence.pseb.ac.in/','_blank')">Visit Website</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="experience">
+    <div class="container">
+        <h1 class="sub-title-exp">Internships</h1>
+        <div class="exp-list">
+            <div class="exp">
+                <img src="company-top.jpeg">
+                <div class="layer">
+                    <h3> CodSoft Internship </h3>
+                    <p> Currently interning at CodSoft as a Web Development Intern, working on building responsive websites and real-world projects using HTML, CSS, and JavaScript.</p>
+                    <a href="https://www.codsoft.in/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="exp">
+                <img src="company2.jpg">
+                <div class="layer">
+                    <h3> AlgoUniversity Fellowship (AlgoScholar'24) </h3>
+                    <p> Currently learning advanced Data Structures & Algorithms and Problem Solving through structured content and mentorship at AlgoUniversity. I’m solving real-world problems, participating in live sessions, and improving my skills for competitive coding and technical interviews.</p>
+                    <a href="https://www.algouniversity.com/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="exp">
+                <img src="limited-company.webp">
+                <div class="layer">
+                    <h3>CodAlpha Internship </h3>
+                    <p> Web Development Intern at CodAlpha – building responsive web projects and improving frontend development skills (HTML, CSS, JS).</p>
+                    <a href="https://www.codealpha.tech/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>kaurchan2005@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/chanpreetkaur05/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/its._chan._5/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/chan570"  class="github" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:kaurchan2005@gmail.com" class="gmail"><i class="fas fa-envelope"></i></a>
+                      </div>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="learn-more-btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+  </div>
+</div>
+<div class="copyright">
+    <p> Copyright @Chan. Made with <i class="fas fa-heart"></i> by Chanpreet Kaur</p>
+</div>
+  </div>
+<script>
+    var tablink=document.getElementsByClassName("tablink");
+    var tabcontent=document.getElementsByClassName("tabcontent");
+    function opentab(tabname){
+        for(tablinkk of tablink){
+            tablinkk.classList.remove("activelink");
+
+        }
+        for(tabcontentt of tabcontent){
+            tabcontentt.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab");
+    }
+</script>
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzvkBOdykkgGUJuyedcSyWmMongWlkMvm0TJebQ8dzzEgrE53h9h4LwlEQnp_T15PnWkg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
