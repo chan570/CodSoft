@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 <body>
+  
     <div id="header">
         <div class="container">
             <nav>
-                <img src ="Chanpreet Kaur.png" class="logo" >
-                <ul id="sidemenu">
+                <img src ="Chanpreet Kaur.png" class="logo fade-in" >
+                <ul id="sidemenu" class="fade-in">
                     <li> <a href="#header">Home</a></li>
                     <li> <a href="#about">About</a></li>
                     <li><a href="#services">My work</a></li>
@@ -25,12 +28,12 @@
                 </ul><i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p> Student at NITJ </p>
-                <h1>Hey, Welcome to <br><span>Chanpreet Kaur's</span> Portfolio!</h1>
-                <a href="https://drive.google.com/file/d/1wuA9wFVVSruUqWbyYJWAmgWy07d_qtn8/view" target="_blank" class="resume-button">
-                    <i class="fas fa-link"></i> My Resume
+                <p class="fade-in"> Student at NITJ </p>
+                <h1 class="fade-in">Hey, Welcome to <br><span>Chanpreet Kaur's</span> Portfolio!</h1>
+                <a href="https://drive.google.com/file/d/1wuA9wFVVSruUqWbyYJWAmgWy07d_qtn8/view" target="_blank" class="resume-button fade-in">
+                    <i class="fas fa-link "></i> My Resume
                   </a>
-                  <div class="social-icons">
+                  <div class="social-icons fade-in" >
                     <a href="https://www.linkedin.com/in/chanpreetkaur05/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/its._chan._5/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://github.com/chan570"  class="github" target="_blank"><i class="fab fa-github"></i></a>
@@ -42,17 +45,17 @@
         </div>
     </div>
     
-<div id="about">
+<div id="about" >
     <div class="container">
         <div class="row">
-            <div class ="about-col1">
+            <div class ="about-col1" data-aos="fade-up">
                 <img src="ABOUT.jpg">
             </div>
             <div class ="about-col2">
-                <h1 class="subtitleABOUT">ABOUT ME</h1>
+                <h1 class="subtitleABOUT" data-aos="fade-up">ABOUT ME</h1>
                 <div class="para">
                     <div>
-                      <p>
+                      <p data-aos="fade-up">
                         I'm Chanpreet Kaur, a dedicated and forward-thinking B.Tech Computer Science student with a passion for 
                         building impactful and innovative tech solutions. My interests lie in web development, AI-powered platforms, 
                         and practical software systems that improve everyday life. I’ve actively participated in hackathons and 
@@ -61,17 +64,17 @@
                     </div>
                   </div>
                   
-                <div class="tabtitles">
+                <div class="tabtitles" data-aos="fade-up">
                     <p class="tablink activelink" onclick="opentab('skills')">SKILLS</p>
                     <p class="tablink" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
                     <p class="tablink" onclick="opentab('hobbies')">HOBBIES</p>
                 </div>
-                <div class="tabcontent activetab" id="skills">
+                <div class="tabcontent activetab" id="skills" data-aos="fade-up">
                     <ul>
                         <li>
                             <span>
                                 Web Development
-                            </span><br>  using HTML,CSS,JS
+                            </span><br>  HTML,CSS,JS
                         </li>
                         <li>
                             <span>
@@ -129,19 +132,19 @@
 </div>
 <div id="services">
     <div class="container">
-      <h1 class="subtitle-ser">What Can I Do</h1>
+      <h1 class="subtitle-ser" data-aos="fade-up">What Can I Do</h1>
       <div class="service-flex">
-        <div class="serviceslist">
+        <div class="serviceslist" data-aos="fade-up">
           <div class="web-text" class="icon-top">
             
-                <i class="fas fa-code fa-2x"></i>
+                <i class="fas fa-code fa-2x" ></i>
     
             <h2>Web Design</h2>
-            <p>As a passionate and detail-oriented web designer, I specialize in creating visually captivating, user-friendly, and responsive websites tailored to meet your unique goals. Whether you need a personal blog, a startup landing page, or a dynamic web app, I can help bring your ideas to life with clean, modern designs and seamless functionality.</p>
-            <a href="#" class="learn-more-btn">Learn more</a>
+            <p >As a passionate and detail-oriented web designer, I specialize in creating visually captivating, user-friendly, and responsive websites tailored to meet your unique goals. Whether you need a personal blog, a startup landing page, or a dynamic web app, I can help bring your ideas to life with clean, modern designs and seamless functionality.</p>
+            <a href="#" class="learn-more-btn" >Learn more</a>
           </div>
         </div>
-        <div class="service-image">
+        <div class="service-image" data-aos="fade-up">
           <img src="web-design.jpg" alt="Web Design" />
         </div>
       </div>
@@ -149,17 +152,17 @@
   </div>
   <div id="education">
     <div class="edu-container">
-      <div class="edu-left">
+      <div class="edu-left" data-aos="fade-up">
         <img src="edu.jpg" alt="Graduation Cap and Certificate" />
       </div>
-      <div class="edu-right">
-        <h1 class="edu-title">Education</h1>
-        <p class="edu-subtitle-1">Qualification and Certifications</p>
+      <div class="edu-right" data-aos="fade-up">
+        <h1 class="edu-title" data-aos="fade-up">Education</h1>
+        <p class="edu-subtitle-1" data-aos="fade-up">Qualification and Certifications</p>
        
       </div>
     </div>
   </div>
-  <div class="education-entry">
+  <div class="education-entry" data-aos="fade-up">
     <div class="edu-logo">
       <div class="edu-logo-inner">
         <div class="edu-logo-front">
@@ -170,7 +173,7 @@
         </div>
       </div>
     </div>
-    <div class="edu-details">
+    <div class="edu-details" data-aos="fade-up">
       <div class="edu-header">
         <h3>Dr. B.R. Ambedkar National Institute of Technology , Jalandhar</h3>
         <span>2023 – Present</span>
@@ -187,8 +190,8 @@
   </div>
 
   <!-- Second Education Block -->
-   <div id="educationindetail">
-  <div class="education-entry">
+   <div id="educationindetail" data-aos="fade-up">
+  <div class="education-entry" data-aos="fade-up">
     <div class="edu-logo">
       <div class="edu-logo-inner">
         <div class="edu-logo-front">
@@ -199,7 +202,7 @@
         </div>
       </div>
     </div>
-    <div class="edu-details">
+    <div class="edu-details" data-aos="fade-up">
       <div class="edu-header">
         <h3>Senior Secondary Residential School for Meritorious Students , Mohali</h3>
         <span>2021–2023</span>
@@ -216,9 +219,9 @@
 </div>
   <div id="experience">
     <div class="container">
-        <h1 class="sub-title-exp">Internships</h1>
+        <h1 class="sub-title-exp" data-aos="fade-up">Internships</h1>
         <div class="exp-list">
-            <div class="exp">
+            <div class="exp" data-aos="fade-up">
                 <img src="company-top.jpeg">
                 <div class="layer">
                     <h3> CodSoft Internship </h3>
@@ -226,7 +229,7 @@
                     <a href="https://www.codsoft.in/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-            <div class="exp">
+            <div class="exp" data-aos="fade-up">
                 <img src="company2.jpg">
                 <div class="layer">
                     <h3> AlgoUniversity Fellowship (AlgoScholar'24) </h3>
@@ -234,7 +237,7 @@
                     <a href="https://www.algouniversity.com/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-            <div class="exp">
+            <div class="exp" data-aos="fade-up">
                 <img src="limited-company.webp">
                 <div class="layer">
                     <h3>CodAlpha Internship </h3>
@@ -245,10 +248,10 @@
         </div>
     </div>
   </div>
-  <div id="contact">
+  <div id="contact" >
         <div class="container">
             <div class="row">
-                <div class="contact-left">
+                <div class="contact-left" data-aos="fade-up">
                     <h1 class="">Contact Me</h1>
                     <p><i class="fas fa-paper-plane"></i>kaurchan2005@gmail.com</p>
                     <div class="social-icons">
@@ -258,7 +261,7 @@
                         <a href="mailto:kaurchan2005@gmail.com" class="gmail"><i class="fas fa-envelope"></i></a>
                       </div>
                 </div>
-                <div class="contact-right">
+                <div class="contact-right" data-aos="fade-up">
                 <form name="submit-to-google-sheet">
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
@@ -314,5 +317,10 @@
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
